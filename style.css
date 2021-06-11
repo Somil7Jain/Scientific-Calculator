@@ -1,0 +1,177 @@
+* {
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: bold;
+}
+body {
+  background-image: url(https://www.mathplanet.com/media/2439951/digitalamatte.png?width=500&height=333.3333333333333);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  z-index: -50;
+  background-size: 100%;
+  scroll-behavior: smooth;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  font-size: 2.4rem;
+  font-family: "Mate SC", serif;
+}
+.logo {
+  height: 42px;
+  width: 45px;
+  margin: 38px 19px 33px 10px;
+  border-radius: 10px;
+}
+.calculator {
+  height: 600px;
+  width: 436px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: -7px auto;
+  border: 2px solid black;
+  background-color: rgb(232, 236, 243);
+  opacity: 0.85;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.item {
+  border: 2px solid rgb(232, 236, 243);
+  background-color: rgb(232, 236, 243);
+  height: 50px;
+  width: 85px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.item:hover {
+  border: 2px solid rgb(199 195 214);
+  background-color: rgb(245 238 238);
+  border-radius: 10px;
+  color: rgb(124 126 181);
+}
+button {
+  margin: 0px 0px;
+}
+.screen {
+  color: white;
+  height: 45px;
+  width: 486px;
+  border: white;
+  border: 2px solid black;
+  background-color: black;
+  text-align: right;
+}
+#inscreen {
+  margin: 5px 4px -40px 4px;
+  align-items: center;
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  padding: 0px 10px 0px 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#outscreen {
+  margin: 30px 4px 9px 4px;
+  padding: 5px 5px 0px 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#xpowy {
+  font-size: 1.07rem;
+  padding: 2px;
+  margin: 7px -11px 27px 6px;
+}
+#clear {
+  background-color: rgb(233, 195, 195);
+  border-radius: 10px;
+  color: black;
+}
+#add {
+  background-color: rgb(198 232 232);
+  border-radius: 10px;
+}
+#minus {
+  background-color: rgb(198 232 232);
+  border-radius: 10px;
+}
+#angle {
+  background-color: rgb(167, 167, 197);
+  border-radius: 10px;
+}
+#multiply {
+  background-color: rgb(198 232 232);
+  border-radius: 10px;
+}
+#divide {
+  background-color: rgb(198 232 232);
+  border-radius: 10px;
+}
+#equal {
+  background-color: rgb(233, 195, 195);
+  border-radius: 10px;
+}
+#AC {
+  background-color: rgb(233, 195, 195);
+  border-radius: 10px;
+}
+@media screen and (max-width: 1078px) and (min-width: 663px) {
+  body {
+    background-image: url(https://www.mathplanet.com/media/2439951/digitalamatte.png?width=500&height=333.3333333333333);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    z-index: -50;
+    scroll-behavior: smooth;
+    background-size: 140vw 171vh;
+  }
+}
+@media screen and (max-width: 663px) and (min-width: 392px) {
+  body {
+    background-image: url(https://www.mathplanet.com/media/2439951/digitalamatte.png?width=500&height=333.3333333333333);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    z-index: -50;
+    scroll-behavior: smooth;
+    background-size: 280vw 166vh;
+  }
+}
+@media screen and (max-width: 392px) and (min-width: 333px) {
+  body {
+    background-image: url(https://www.mathplanet.com/media/2439951/digitalamatte.png?width=500&height=333.3333333333333);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    z-index: -50;
+    scroll-behavior: smooth;
+    background-size: 287vw 179vh;
+  }
+}
+@media screen and (max-width: 333px) {
+  body {
+    background-image: url(https://www.mathplanet.com/media/2439951/digitalamatte.png?width=500&height=333.3333333333333);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    z-index: -50;
+    scroll-behavior: smooth;
+    background-size: 580vw 231vh;
+  }
+}
